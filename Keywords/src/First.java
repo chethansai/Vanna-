@@ -87,18 +87,18 @@ class Executinginterface {
 		{
 		    //applying changes on bike
 			case 1:Bike bike = new Bike(); 
-	        bike.changeGear(1); 
-	        bike.speedUp(4); 
-	        bike.applyBrakes(3); 
+	        bike.changeGear(3); 
+	        bike.speedUp(40); 
+	        bike.applyBrakes(10); 
 	        System.out.println("Bike present state :"); 
 	        bike.printStates(); break;
 			default:System.out.println("Unlisted In Menu");
 			
 			//applying changes on bicycle
 			case 2:Car car = new Car(); 
-	        car.changeGear(2); 
-	        car.speedUp(3); 
-	        car.applyBrakes(1); 
+	        car.changeGear(4); 
+	        car.speedUp(50); 
+	        car.applyBrakes(10); 
 	        System.out.println("car present state :"); 
 	        car.printStates();break;
 
